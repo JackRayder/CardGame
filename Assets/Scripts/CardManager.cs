@@ -7,34 +7,20 @@ namespace Arkham
 {
     public struct Cards
     {
-        public enum CardType
-        {
-            Location,
-            TreacheryEvent,
-            Enemy,
-            Agenda,
-            Act,
-            Detective,
-            Asset,
-            Event,
-            Skill
-        }
         public int Id;
-        public Sprite Logo;
-        public int Cost;
+        public CardSO AllInfo;
 
-        public Cards(int id, string logoPath, int cost)
+        public Cards(int id, string logoPath)
         {
             Id = id;
-            Logo = Resources.Load<Sprite>(logoPath);
-            Cost = cost;
+            AllInfo = Resources.Load<CardSO>(logoPath);
 
         }
     }
 
     public static class CardRenderer
     {
-        public static List<Cards> AllCards = new List<Cards>();
+        public static Dictionary<int, Cards> AllCards = new Dictionary<int, Cards>();
     }
 
     public class CardManager : MonoBehaviour
@@ -42,7 +28,7 @@ namespace Arkham
         public void Awake()
         {
             for (int i = 1; i < 183; i++)
-                CardRenderer.AllCards.Add(new Cards(i, "CardImg/"+ i, 3));
+                CardRenderer.AllCards.Add(i, new Cards(i, "CardsSO/20"));
         }
     }
 }

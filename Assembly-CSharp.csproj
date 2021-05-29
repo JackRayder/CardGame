@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0EBFEF37-229D-C885-0CB3-DB10CB6ACA59}</ProjectGuid>
+    <ProjectGuid>{0EEBF18E-272D-828E-0FE3-FE5D1E52DE1C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -62,6 +62,7 @@
     <Compile Include="Assets\Scripts\DropPlace.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\CardInfo.cs" />
+    <Compile Include="Assets\Scripts\CardSO.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -724,7 +725,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{4B116B15-D388-8B86-4331-42AC5470FE9C}</Project>
+      <Project>{E5DD2DDB-EA0E-BBFA-7055-57624FCE023B}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
   </ItemGroup>
