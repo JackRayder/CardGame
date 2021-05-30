@@ -12,15 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a96eca4d09e19f40b88bcde15cfa799, type: 3}
   m_Name: 93
   m_EditorClassIdentifier: 
-  Img: {fileID: 0}
+  Img: {fileID: 21300000, guid: 7e7641e46e55f98429117c56949ebfea, type: 3}
   AnotherSideImg: {fileID: 0}
-  Type: 
+  Type: Skill
   Cost: 0
   StrengthIcon: 0
   AgilityIcon: 0
   WillIcon: 0
   KnowledgeIcon: 0
-  Tag1: 
+  UltimateIcon: 2
+  Tag1: Innate
   Tag2: 
   Tag3: 
   Tag4: 

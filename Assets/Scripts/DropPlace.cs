@@ -12,7 +12,8 @@ namespace Arkham
         HAND,
         INVENTORY,
         DISCARD,
-        TREACHERY
+        TREACHERY,
+        TABLE
     }
     public class DropPlace : MonoBehaviour, IDropHandler, IPointerEnterHandler, IPointerExitHandler
     {
@@ -32,11 +33,13 @@ namespace Arkham
         {
             if (Type == FieldType.TREACHERY) return;
             Card _card = eventData.pointerDrag.GetComponent<Card>();
+            CardInfo _cardInfo = eventData.pointerDrag.GetComponent<CardInfo>();
 
-            if (_card && Type == FieldType.INVENTORY /*&& _card.GetComponent<CardInfo>().SelfCard.Cost <= _supply.SupplyNow*/)
+
+            if (_card && Type == FieldType.INVENTORY && _cardInfo.Type == "Asset" && _cardInfo.Cost <= _supply.SupplyNow)
             {
                 _card.DefaultParent = transform;
-                //_supply.ReduceSupply(_card.GetComponent<CardInfo>().SelfCard.Cost);
+                _supply.ReduceSupply(_cardInfo.Cost);
             }
 
             if (_card && Type == FieldType.DISCARD)
@@ -44,7 +47,7 @@ namespace Arkham
                 var AllCardsNumber = _card.GetComponent<CardInfo>().SelfCard.Id - 1;
                 Discard.Add(CardRenderer.AllCards[AllCardsNumber]);
                 print("Карта " + _card.GetComponent<CardInfo>().SelfCard.Id + " добавлена");
-                //DiscardCard.GetComponent<Image>().sprite = _card.GetComponent<CardInfo>().SelfCard.Logo;
+                DiscardCard.GetComponent<Image>().sprite = _cardInfo.Img;
                 TempCardGO.transform.SetParent(GameObject.Find("Canvas").transform);
                 TempCardGO.transform.localPosition = new Vector3(-1440, 195);
                 Destroy(_card.gameObject);

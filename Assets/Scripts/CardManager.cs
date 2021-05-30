@@ -10,10 +10,10 @@ namespace Arkham
         public int Id;
         public CardSO AllInfo;
 
-        public Cards(int id, string logoPath)
+        public Cards(int id, string InfoPath)
         {
             Id = id;
-            AllInfo = Resources.Load<CardSO>(logoPath);
+            AllInfo = Resources.Load<CardSO>(InfoPath);
 
         }
     }
@@ -27,8 +27,8 @@ namespace Arkham
     {
         public void Awake()
         {
-            for (int i = 1; i < 183; i++)
-                CardRenderer.AllCards.Add(i, new Cards(i, "CardsSO/20"));
+            for (int i = 0; i < 182; i++)
+                CardRenderer.AllCards.Add(i, new Cards(i, "CardsSO/" + i));
         }
     }
 }

@@ -12,22 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a96eca4d09e19f40b88bcde15cfa799, type: 3}
   m_Name: 149
   m_EditorClassIdentifier: 
-  Img: {fileID: 0}
-  AnotherSideImg: {fileID: 0}
-  Type: 
+  Img: {fileID: 21300000, guid: ab14550af5160724d8dbdb63fc5c8642, type: 3}
+  AnotherSideImg: {fileID: 21300000, guid: 560c821da92ab0044a8bda905202ee20, type: 3}
+  Type: Location
   Cost: 0
   StrengthIcon: 0
   AgilityIcon: 0
   WillIcon: 0
   KnowledgeIcon: 0
-  Tag1: 
+  UltimateIcon: 0
+  Tag1: Woods
   Tag2: 
   Tag3: 
   Tag4: 
   Healht: 0
   Sanity: 0
   Clues: 0
-  Shroud: 0
+  Shroud: 2
   Damage: 0
   SanityDmg: 0
   Strength: 0

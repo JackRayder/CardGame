@@ -12,15 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a96eca4d09e19f40b88bcde15cfa799, type: 3}
   m_Name: 178
   m_EditorClassIdentifier: 
-  Img: {fileID: 0}
+  Img: {fileID: 21300000, guid: 5fd7850e68fffd647ac61c3887190115, type: 3}
   AnotherSideImg: {fileID: 0}
-  Type: 
+  Type: Treachery
   Cost: 0
   StrengthIcon: 0
   AgilityIcon: 0
   WillIcon: 0
   KnowledgeIcon: 0
-  Tag1: 
+  UltimateIcon: 0
+  Tag1: Pact
   Tag2: 
   Tag3: 
   Tag4: 

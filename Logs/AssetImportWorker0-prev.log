@@ -1,0 +1,189 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.8f1 (507919d4fff5) revision 5273881'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Enterprise LTSC 2019; OS build 17763.1935; Version 1809; 64bit' Language: 'ru' Physical Memory: 8136 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Jack Rayder/Desktop/CardGame/CardGame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60938
+Successfully changed project path to: C:/Users/Jack Rayder/Desktop/CardGame/CardGame
+C:/Users/Jack Rayder/Desktop/CardGame/CardGame
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 50.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.8f1 (507919d4fff5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Jack Rayder/Desktop/CardGame/CardGame/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   
+    VRAM:     4018 MB
+    Driver:   27.21.14.6647
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001856 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 48.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.187 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001859 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 47.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.155 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 3.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.6 MB.
+System memory in use after: 85.6 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2271.
+Total: 3.003200 ms (FindLiveObjects: 0.286300 ms CreateObjectMapping: 0.174600 ms MarkObjects: 2.357000 ms  DeleteObjects: 0.184000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Resources/CardsSO/36.asset
+  artifactKey: Guid(6a8ec2ab862d3bc468e95ba50c938e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CardsSO/36.asset using Guid(6a8ec2ab862d3bc468e95ba50c938e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a716cefab394030f74f1c4974b1e8c75') in 0.043975 seconds
+  Import took 0.050157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Resources/CardsSO/33.asset
+  artifactKey: Guid(095b2ff4960763d4890d8cc219c186ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CardsSO/33.asset using Guid(095b2ff4960763d4890d8cc219c186ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a60b3ca31d3d0bdbeeed696da8c3b6') in 0.008566 seconds
+  Import took 0.016599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Resources/CardsSO/34.asset
+  artifactKey: Guid(c12578628140de0478e4ddb7df53ba5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CardsSO/34.asset using Guid(c12578628140de0478e4ddb7df53ba5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b295ff862b90a5a6f31904c579d817d0') in 0.014035 seconds
+  Import took 0.018448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Resources/CardsSO/41.asset
+  artifactKey: Guid(35790951a4731c14d9e1ad05f102d825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CardsSO/41.asset using Guid(35790951a4731c14d9e1ad05f102d825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '527669c54441771dbd58fea03f29fd68') in 0.011573 seconds
+  Import took 0.018386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Resources/CardsSO/42.asset
+  artifactKey: Guid(5c3fbf6b5811bf34fa67725a4700dc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CardsSO/42.asset using Guid(5c3fbf6b5811bf34fa67725a4700dc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '708238a7b907a1d4e29f4799f20561c2') in 0.010095 seconds
+  Import took 0.014304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Resources/CardsSO/43.asset
+  artifactKey: Guid(f98a9d100f17b544aabf09920e342d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CardsSO/43.asset using Guid(f98a9d100f17b544aabf09920e342d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb28add69c978db0e782b23ffea6034d') in 0.013204 seconds
+  Import took 0.017593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Resources/CardsSO/38.asset
+  artifactKey: Guid(35a75df75ac6fac4cb178d701bd41e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CardsSO/38.asset using Guid(35a75df75ac6fac4cb178d701bd41e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e048a3e82432362682d85361bdffb9d6') in 0.016187 seconds
+  Import took 0.021551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Resources/CardsSO/31.asset
+  artifactKey: Guid(48bf2b91cf15ea646928396a101bdb39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CardsSO/31.asset using Guid(48bf2b91cf15ea646928396a101bdb39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b1f8ee473e65ce8d8c5590b8ece5ab8') in 0.012159 seconds
+  Import took 0.016598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Resources/CardsSO/40.asset
+  artifactKey: Guid(efc9643d2c43db74192139d81b789aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CardsSO/40.asset using Guid(efc9643d2c43db74192139d81b789aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbcaa85bc154437d3bd51812752fda4f') in 0.011470 seconds
+  Import took 0.017237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Resources/CardsSO/39.asset
+  artifactKey: Guid(ab94526767c60444c948b7dbf279336e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CardsSO/39.asset using Guid(ab94526767c60444c948b7dbf279336e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc0e3f44877d5122c3c2e16d9281b02') in 0.011402 seconds
+  Import took 0.016702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Resources/CardsSO/35.asset
+  artifactKey: Guid(553c9762b85c3ce4886132f757fa4dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CardsSO/35.asset using Guid(553c9762b85c3ce4886132f757fa4dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93d402ad388373401517633b60d84318') in 0.010664 seconds
+  Import took 0.016335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Resources/CardsSO/30.asset
+  artifactKey: Guid(7c7f0e82b3caeb446911864834e09bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CardsSO/30.asset using Guid(7c7f0e82b3caeb446911864834e09bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bdc221759e7fde34107d869ddafc7fe') in 0.013085 seconds
+  Import took 0.018639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Resources/CardsSO/37.asset
+  artifactKey: Guid(4559f6aa164a0084bab0d5ac6c0f1653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CardsSO/37.asset using Guid(4559f6aa164a0084bab0d5ac6c0f1653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9098c0fb6196f81041b058f9b6051352') in 0.011139 seconds
+  Import took 0.016058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Resources/CardsSO/44.asset
+  artifactKey: Guid(aa42814d1a836e04e910f0f4ccdd3eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CardsSO/44.asset using Guid(aa42814d1a836e04e910f0f4ccdd3eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33b9472c356d578437f512389b291259') in 0.013439 seconds
+  Import took 0.017224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Resources/CardsSO/32.asset
+  artifactKey: Guid(dfe54db4298bc5349b21af4aff6a3f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CardsSO/32.asset using Guid(dfe54db4298bc5349b21af4aff6a3f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80fc38706442bffe291e3df7f1a28bf1') in 0.010085 seconds
+  Import took 0.015460 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -12,17 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a96eca4d09e19f40b88bcde15cfa799, type: 3}
   m_Name: 74
   m_EditorClassIdentifier: 
-  Img: {fileID: 0}
+  Img: {fileID: 21300000, guid: dcf64ef04f949aa41948813321dc842a, type: 3}
   AnotherSideImg: {fileID: 0}
-  Type: 
-  Cost: 0
-  StrengthIcon: 0
+  Type: Asset
+  Cost: 2
+  StrengthIcon: 1
   AgilityIcon: 0
   WillIcon: 0
   KnowledgeIcon: 0
-  Tag1: 
-  Tag2: 
-  Tag3: 
+  UltimateIcon: 0
+  Tag1: Item
+  Tag2: Weapon
+  Tag3: Mellee
   Tag4: 
   Healht: 0
   Sanity: 0

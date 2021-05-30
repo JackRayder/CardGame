@@ -12,14 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a96eca4d09e19f40b88bcde15cfa799, type: 3}
   m_Name: 146
   m_EditorClassIdentifier: 
-  Img: {fileID: 0}
-  AnotherSideImg: {fileID: 0}
-  Type: 
+  Img: {fileID: 21300000, guid: c811c9e0106e0d6439ce594c0d3fa3c8, type: 3}
+  AnotherSideImg: {fileID: 21300000, guid: a4066db78d5778047839aadc7629ffdd, type: 3}
+  Type: Act
   Cost: 0
   StrengthIcon: 0
   AgilityIcon: 0
   WillIcon: 0
   KnowledgeIcon: 0
+  UltimateIcon: 0
   Tag1: 
   Tag2: 
   Tag3: 

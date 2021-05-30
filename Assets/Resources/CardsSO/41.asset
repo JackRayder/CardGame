@@ -12,16 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a96eca4d09e19f40b88bcde15cfa799, type: 3}
   m_Name: 41
   m_EditorClassIdentifier: 
-  Img: {fileID: 0}
+  Img: {fileID: 21300000, guid: 432ee7f051ea6b1429e2092bc9624a0c, type: 3}
   AnotherSideImg: {fileID: 0}
-  Type: 
-  Cost: 0
-  StrengthIcon: 0
+  Type: Asset
+  Cost: 3
+  StrengthIcon: 1
   AgilityIcon: 0
-  WillIcon: 0
-  KnowledgeIcon: 0
-  Tag1: 
-  Tag2: 
+  WillIcon: 1
+  KnowledgeIcon: 1
+  UltimateIcon: 0
+  Tag1: Item
+  Tag2: Relic
   Tag3: 
   Tag4: 
   Healht: 0

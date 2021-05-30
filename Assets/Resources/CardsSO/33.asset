@@ -12,20 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a96eca4d09e19f40b88bcde15cfa799, type: 3}
   m_Name: 33
   m_EditorClassIdentifier: 
-  Img: {fileID: 0}
+  Img: {fileID: 21300000, guid: 5563392b72650f04a88b2bc60f6d12dd, type: 3}
   AnotherSideImg: {fileID: 0}
-  Type: 
-  Cost: 0
+  Type: Asset
+  Cost: 4
   StrengthIcon: 0
   AgilityIcon: 0
   WillIcon: 0
-  KnowledgeIcon: 0
-  Tag1: 
-  Tag2: 
+  KnowledgeIcon: 1
+  UltimateIcon: 0
+  Tag1: Ally
+  Tag2: Miskantontic
   Tag3: 
   Tag4: 
-  Healht: 0
-  Sanity: 0
+  Healht: 1
+  Sanity: 2
   Clues: 0
   Shroud: 0
   Damage: 0

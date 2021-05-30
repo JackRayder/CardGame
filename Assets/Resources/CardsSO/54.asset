@@ -12,20 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a96eca4d09e19f40b88bcde15cfa799, type: 3}
   m_Name: 54
   m_EditorClassIdentifier: 
-  Img: {fileID: 0}
+  Img: {fileID: 21300000, guid: e3b77870a340a454a91c5e0a9e1c53c7, type: 3}
   AnotherSideImg: {fileID: 0}
-  Type: 
-  Cost: 0
+  Type: Asset
+  Cost: 5
   StrengthIcon: 0
   AgilityIcon: 0
   WillIcon: 0
-  KnowledgeIcon: 0
-  Tag1: 
-  Tag2: 
+  KnowledgeIcon: 1
+  UltimateIcon: 0
+  Tag1: Ally
+  Tag2: Criminal
   Tag3: 
   Tag4: 
-  Healht: 0
-  Sanity: 0
+  Healht: 2
+  Sanity: 2
   Clues: 0
   Shroud: 0
   Damage: 0

@@ -12,22 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a96eca4d09e19f40b88bcde15cfa799, type: 3}
   m_Name: 132
   m_EditorClassIdentifier: 
-  Img: {fileID: 0}
-  AnotherSideImg: {fileID: 0}
-  Type: 
+  Img: {fileID: 21300000, guid: f3f1c54cb17519245b75f9219d70ad9f, type: 3}
+  AnotherSideImg: {fileID: 21300000, guid: 6a6f139039b90c54496eec4141c3fea4, type: 3}
+  Type: Location
   Cost: 0
   StrengthIcon: 0
   AgilityIcon: 0
   WillIcon: 0
   KnowledgeIcon: 0
-  Tag1: 
+  UltimateIcon: 0
+  Tag1: Arkham
   Tag2: 
   Tag3: 
   Tag4: 
   Healht: 0
   Sanity: 0
-  Clues: 0
-  Shroud: 0
+  Clues: 1
+  Shroud: 2
   Damage: 0
   SanityDmg: 0
   Strength: 0
